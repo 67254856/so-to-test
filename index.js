@@ -15,7 +15,7 @@ let output = document.getElementById("demoSpeed");
 
 let numBar_btn = document.getElementById("btnN");
 
-let speed = slider.value;　//速さ
+let speed = 0.5.value;　//速さ
 
 output.innerHTML = slider.value ; // 速さを画面に表示
 
