@@ -20,7 +20,7 @@ let speed = slider.value;　//速さ
 output.innerHTML = slider.value ; // 速さを画面に表示
 
 slider.oninput = function() {
-  speed = 0.500;
+  speed = slider.value;
   output.innerHTML =  this.value 
 }
 
