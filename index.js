@@ -32,7 +32,7 @@ numBar_btn.addEventListener('click',function(){
   //10以上だとかなりの時間がかかるので
   if(numBar < 3 || numBar > 100 ){
     alert("3~100の数を入力して下さい");
-    numBar = 3;
+    numBar = 10;
   }
 
   reset();
