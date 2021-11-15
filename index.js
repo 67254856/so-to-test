@@ -1,5 +1,5 @@
-const GAME_WIDTH = 350px;
-const GAME_HEIGHT = 200px;
+const GAME_WIDTH = 700px;
+const GAME_HEIGHT = 400px;
 
 let canvas = document.getElementById("gameScreen");
 let ctx = canvas.getContext("2d");
