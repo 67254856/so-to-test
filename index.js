@@ -1,5 +1,5 @@
-const GAME_WIDTH = 350;
-const GAME_HEIGHT = 200;
+const GAME_WIDTH = 700;
+const GAME_HEIGHT = 400;
 
 let canvas = document.getElementById("gameScreen");
 let ctx = canvas.getContext("2d");
@@ -30,9 +30,9 @@ numBar_btn.addEventListener('click',function(){
   numBar =  Number(document.getElementById("N").value);
 
   //10以上だとかなりの時間がかかるので
-  if(numBar < 3 || numBar > 100 ){
-    alert("3~100の数を入力して下さい");
-    numBar = 10;
+  if(numBar < 3 || numBar > 10 ){
+    alert("3~10の数を入力して下さい");
+    numBar = 3;
   }
 
   reset();
