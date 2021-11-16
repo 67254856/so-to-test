@@ -27,7 +27,8 @@ body {
 }
 
 .countNum{
-   padding: 15px;
+   padding: 30px;
+    textcolor: red;
 }
 
 #gameScreen{
