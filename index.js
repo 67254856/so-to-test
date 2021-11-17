@@ -125,7 +125,7 @@ function gameLoop(timestamp){
   
   counter += deltaTime;
 
-  if(counter > speed){
+  if(counter > speed/1000.0){
 
     ctx.clearRect(0,0,GAME_WIDTH,GAME_HEIGHT);
 
@@ -133,7 +133,7 @@ function gameLoop(timestamp){
 
       endTime = performance.now();
 
-      lapseTime_sec = ((endTime - startTime)/1000); 
+      lapseTime_sec = ((endTime - startTime)/1000000); 
 
       //.000までの秒数を表示
       timeValue.innerHTML = Math.floor(lapseTime_sec * 1000) / 1000;
