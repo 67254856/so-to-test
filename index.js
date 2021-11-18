@@ -30,11 +30,11 @@ numBar_btn.addEventListener('click',function(){
   numBar =  Number(document.getElementById("N").value);
 
   //10以上だとかなりの時間がかかるので
-  if(numBar < 3 || numBar > 3 ){
+  /*if(numBar < 3 || numBar > 10 ){
     alert("3~10の数を入力して下さい");
     numBar = 3;
   }
-
+*/
   reset();
   shuffle();
   draw();
